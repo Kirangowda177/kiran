@@ -33,7 +33,7 @@ Resources:
   WebApp01:
     Description: The installation and configuration commands this project will use to create instances that support this sample web application.
     Properties:
-      IamInstanceProfile: !Ref 'WebAppInstanceProfile'
+      IamInstanceProfile: !Ref 'WebAppInstanceProfile1234'
       ImageId: !Ref 'ImageId'
       InstanceType: !Ref 'InstanceType'
       KeyName: !Ref 'KeyPairName'
